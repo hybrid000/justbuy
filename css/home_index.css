@@ -1,0 +1,258 @@
+@import "stylemain.css";
+
+
+.slide-container {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    height: 21rem;
+}
+
+.slide {
+    display: none;
+    cursor: pointer;
+}
+
+.zx h1 {
+    padding-left: 1.2rem;
+}
+
+.zx h3 {
+    padding-left: 1.2rem;
+}
+
+.zx img {
+    width: 100%;
+    height: 17.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.zx1 h1 {
+    padding-left: 1.2rem;
+}
+
+.zx1 img {
+
+
+    width: 100%;
+    height: 15.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+
+}
+
+.slide img {
+    width: 100%;
+    height: 21rem;
+}
+
+.prevbtn:hover {
+    background-color: #f9f9f9
+}
+
+.prevbtn:active {
+    background-color: #f4ddf8;
+}
+
+.nxtbtn:hover {
+    background-color: #f9f9f9
+}
+
+.nxtbtn:active {
+    background-color: #f4ddf8;
+
+}
+
+.prevbtn {
+    border: 0.5px solid #000000;
+    position: absolute;
+    top: 44%;
+    left: .5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+
+
+}
+
+.nxtbtn {
+    border: 0.5px solid #000000;
+    position: absolute;
+    top: 44%;
+    border-radius: 2rem;
+    right: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+
+
+}
+
+.context {
+    padding: 0.5rem 1.9rem 1rem 2rem;
+}
+
+/* ****************************************************************************************************** */
+/* Media Queries*/
+
+@media only screen and (min-width:300px) and (max-width: 950px) {
+
+
+    .slide-container {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        position: relative;
+        height: 10rem;
+
+    }
+
+    .slide {
+
+
+
+        display: none;
+
+
+        cursor: pointer;
+
+    }
+
+    .zx h1 {
+        padding-left: 1.2rem;
+    }
+
+    .zx h3 {
+        padding-left: 1.2rem;
+    }
+
+    .zx img {
+
+
+        width: 100%;
+        height: 17.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        cursor: pointer;
+    }
+
+    .zx1 h1 {
+        padding-left: 1.2rem;
+    }
+
+    .zx1 img {
+
+
+        width: 100%;
+        height: 15.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        cursor: pointer;
+
+    }
+
+    .slide img {
+
+        width: 100%;
+        height: 10rem;
+
+
+
+
+    }
+
+    .slide-container {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        position: relative;
+        height: 10rem;
+
+    }
+
+    .slide {
+
+
+
+        display: none;
+
+
+        cursor: pointer;
+
+    }
+
+    .zx h1 {
+        padding-left: 1.2rem;
+    }
+
+    .zx h3 {
+        padding-left: 1.2rem;
+    }
+
+    .zx img {
+
+
+        width: 100%;
+        height: 10rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        cursor: pointer;
+    }
+
+    .zx1 h1 {
+        padding-left: 1.2rem;
+    }
+
+    .zx1 img {
+
+
+        width: 100%;
+        height: 10rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        cursor: pointer;
+
+    }
+
+    .slide img {
+
+        width: 100%;
+        height: 10rem;
+    }
+
+
+
+    .prevbtn {
+        border: 0.5px solid #000000;
+        position: absolute;
+        top: 44%;
+        left: .5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 2rem;
+
+
+    }
+
+    .nxtbtn {
+
+        border: 0.5px solid #000000;
+        position: absolute;
+        top: 44%;
+        border-radius: 2rem;
+        right: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+
+
+    }
+
+    .context {
+        padding: 0.5rem 1.9rem 1rem 2rem;
+        font-size: x-small;
+    }
+
+
+
+
+}

@@ -1,0 +1,63 @@
+@import "stylemain.css";
+
+.llayer2{
+    background-color: rgb(215, 208, 208);
+}
+.zx{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.zx img{
+
+    width:100%;
+    height: 15.5rem;
+    border:0.5px solid black;
+
+}
+
+.post{
+    background-color: white ;
+    margin: 2.5rem 3.5rem;
+    padding:2rem;
+    border:0.5px solid black;
+    box-shadow: 0.5px 0.5px 0.5px solid grey;
+
+}
+.post p{
+    width: 100%;
+}
+.post h2{
+    padding-top:.4rem;
+
+} 
+.post h5{
+    padding-left: 0.5rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+ }
+
+.hide{
+    display: none;
+}
+.post img{
+    width:100%;
+    height:80vh;
+
+}
+.post button{
+    margin-top:1rem;
+    margin-bottom:.5rem;
+    color: rgb(255, 255, 255);
+    padding:.5rem;
+    border :none;
+    background :rgb(118, 129, 240)
+    
+    
+    
+    }
+
+.content{
+    padding:0.5rem 3rem 0.5rem 3rem;
+
+    justify-content:center ;
+}

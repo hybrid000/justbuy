@@ -1,0 +1,158 @@
+@import "stylemain.css";
+
+
+#llayer2 {
+    background-color: rgb(243, 240, 235);
+}
+
+.productz {
+    padding-top: 1.5rem;
+    margin: 0rem 4.5rem 0rem;
+}
+
+.banner {
+    width: 100%;
+    padding-top: .6rem;
+}
+
+.banner1 {
+    width: 100%;
+    height: 11.5rem;
+    padding-top: .6rem;
+}
+
+.pro {
+    height: 13.5rem;
+    margin-bottom: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 1rem 1rem 1rem 2.6rem;
+    border-radius: .7rem;
+    background-color: white;
+    box-shadow: 0px 3px 8px #383838;
+
+
+}
+
+.pro img:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+}
+
+.laptop {
+
+    width: 12.1rem;
+    height: 10rem;
+
+}
+
+
+.mobile {
+
+    width: 11.5rem;
+    height: 11.5rem;
+}
+
+.acces {
+    width: 13.5rem;
+
+    height: 12rem;
+}
+
+.tablet1 {
+
+    width: 11.5rem;
+    height: 11.8rem;
+}
+
+.tablet {
+    width: 11rem;
+    height: 9.9rem;
+}
+
+
+.desc {
+    width: 76%;
+    padding-right: 2rem;
+
+}
+
+.desc h4 {
+    padding-top: .3rem;
+    display: inline;
+
+}
+
+
+.desc h5:nth-of-type(3) {
+    padding: .3rem;
+    color: rgb(164, 13, 13);
+
+}
+
+.disc {
+    display: inline;
+    text-decoration: line-through;
+    color: rgb(84, 83, 83);
+}
+
+.disc1 {
+    padding-left: .5rem;
+    display: inline;
+    color: rgb(3, 100, 3);
+
+}
+
+/* wishlist btn */
+
+.desc button {
+    position: absolute;
+    right: 6.8rem;
+    padding-bottom: .4rem;
+    background-color: transparent;
+    border: none;
+}
+
+.desc .fa-heart {
+    color: rgba(161, 160, 160, 0.9);
+}
+
+.desc button:hover .fa-heart {
+    color: rgb(253, 82, 82);
+}
+
+.desc button:focus .fa-heart {
+
+    color: rgb(253, 82, 82);
+}
+
+.pro:hover .desc h4:nth-of-type(1) {
+    color: rgb(24, 91, 168);
+}
+
+.desc li {
+    font-size: small;
+}
+
+.rev {
+    display: flex;
+    align-items: center;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: goldenrod;
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    border-color: 1px solid black;
+}
+
+.rev h6 {
+    padding-left: .7rem;
+}
+
+.context {
+    padding: 0.5rem 1.9rem 0.5rem 2.6rem;
+}

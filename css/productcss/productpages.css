@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 a {
     display: flex;
 }
@@ -72,32 +73,30 @@ h5 {
 
 }
 
-.singleproimg {
+/* .singleproimg {
 
-    /* margin-bottom: 6.3rem; */
-    /* height:auto; */
-
+   
 }
+#mainimg {} */
 
 .single-single {
     display: flex;
     justify-content: center;
-
     align-content: center;
     width: 95%;
     height: 20rem;
     margin-left: 0.8rem;
 }
 
-#mainimg {}
+
 
 #wishlistbtn {
     position: absolute;
     top: 0.6rem;
     right: 0.6rem;
     padding: .5rem .4rem .5rem .4rem;
-    background-color: rgb(246, 242, 242);
-    border: 0.5px solid rgb(246, 242, 242);
+    background-color: rgb(250, 250, 250);
+    border: 0.5px solid rgb(250, 250, 250);
     border-radius: 10rem;
     cursor: pointer;
 
@@ -105,7 +104,7 @@ h5 {
 }
 
 .singleproimg .fa-heart {
-    color: rgba(161, 160, 160, 0.9);
+    color: rgba(176, 176, 176, 0.9);
 }
 
 .singleproimg button:hover .fa-heart {
@@ -117,7 +116,6 @@ h5 {
     color: rgb(253, 82, 82);
 }
 
-/* ss */
 .smallimggroup {
 
     padding: .6rem;
@@ -126,15 +124,16 @@ h5 {
 }
 
 .smallimgcol {
+
     flex: 0 0 auto;
-    width: 90px;
-    height: 80px;
-    border: 1.5px solid rgb(188, 187, 187);
-    border-radius: .2rem;
+    margin-right: .5rem;
+    width: 85px;
+    height: 78px;
+    border: 1.5px solid rgb(218, 218, 218);
+    border-radius: .12rem;
     padding: .2rem;
     transition: .2s ease-out;
     cursor: pointer;
-    box-shadow: 1px 1px 1px solid grey;
 
 }
 
@@ -145,7 +144,7 @@ h5 {
 }
 
 .image-container {
-    padding: 0rem 3vw;
+    padding: 0 2.5vw 0 3.5vw;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -157,13 +156,12 @@ h5 {
     display: none;
 }
 
+
 .prev-btn,
 .next-btn {
-    border: none;
     width: 2.5vw;
     height: 100%;
     position: absolute;
-    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,6 +186,7 @@ h5 {
 
 .prev-btn img,
 .next-btn img {
+    display: block;
     opacity: 0.1;
 }
 
@@ -279,12 +278,21 @@ h5 {
     align-items: center;
     padding: 0.3rem 0 0.3rem 0;
     font-size: small;
+    box-sizing: content-box;
+}
+
+#logomc {
+    width: 5rem;
+    height: 1.9rem;
+    padding-right: 1rem;
+
 }
 
 .warlogo img {
     width: 5rem;
     height: 2.8rem;
 }
+
 
 
 
@@ -325,20 +333,33 @@ hr {
     cursor: pointer;
 }
 
-td,
 th {
     align-content: initial;
     text-align: left;
     text-align: start;
     width: fit-content;
-    padding: 0.3rem 2rem .3rem .5rem;
+    padding: 1rem 2rem .5rem 0rem;
+
+}
+
+td {
+    font-size: smaller;
+    align-content: initial;
+    text-align: left;
+    text-align: start;
+    width: fit-content;
+    padding: 0.3rem 2rem .2rem .5rem;
+}
+
+td:nth-of-type(1) {
+    width: 10rem;
+    color: #979696;
+    font-weight: 600;
 }
 
 .bar {
     width: 10%;
-    /* max-width: 600px; */
     padding: 0 20px;
-    /* min-height: 100vh; */
     align-items: center;
     justify-content: center;
 }
@@ -366,8 +387,7 @@ th {
     background: #d13639;
     border-radius: 3px;
     width: 50px;
-    /* position: relative; */
-    /* animation: fillBars 2.5s 1; */
+
 }
 
 
@@ -376,19 +396,22 @@ th {
     display: block;
 }
 
-
-
-.revimgcol {
+/* review image section */
+.revImgContainer {
     display: flex;
-    padding: .3rem;
-    border: 1px solid rgba(184, 184, 184, 0.742);
-    border-radius: 0.1rem;
-
     justify-content: space-between;
-
-
+    padding: .3rem 2vw;
+    border: 1px solid rgba(231, 230, 230, 0.742);
+    border-radius: .5rem;
     cursor: pointer;
-    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.revImgContainer::-webkit-scrollbar {
+    display: none;
 }
 
 .revimg {
@@ -396,6 +419,44 @@ th {
     height: 6.7rem;
     padding: .2rem;
 }
+
+
+.back-btn,
+.for-btn {
+    display: flex;
+    width: 2vw;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgb(243, 243, 243);
+    border: .3px solid rgb(231, 230, 230);
+    background: white;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.back-btn {
+    border-right: none;
+}
+
+.for-btn {
+    right: 0;
+    border-left: none;
+
+
+}
+
+
+.back-btn:hover .fa-circle-chevron-left,
+.for-btn:hover .fa-circle-chevron-right {
+
+    color: rgb(0, 102, 255);
+    scale: 1.05;
+    transition: .4s ease-in-out;
+}
+
 
 .zz {
     margin-bottom: 1rem;
@@ -406,7 +467,6 @@ th {
 }
 
 .istar {
-    /* display: flex; */
     display: inline;
     background-color: green;
     width: fit-content;

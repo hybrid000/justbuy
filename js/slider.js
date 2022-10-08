@@ -1,13 +1,4 @@
-// const carouselslide=document.querySelector('.slide');
-// const carouselimages= document.querySelector('.slider img')
 
-
-// const prebtn=document.querySelector('.prebtn');
-// const nxtbtn=document.querySelector('.nxtbtn');
-
-// let counter=1;
-// const size=carouselimages[0].clientwidth;
-// carouselslide.getElementsByClassName.transform='translateX('+(-size*counter)+ 'px);
 
 let flag = 0;
 
